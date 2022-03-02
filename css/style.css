@@ -65,7 +65,9 @@ img {
     text-align: center;
 }
 
+
 /* section heading */
+
 
 .header {
     height: 110px;
@@ -88,19 +90,16 @@ img {
     line-height: 1;
 }
 
-.nav-link {
-    color: #1c1c1c;
-}
 .nav-item.is-active .nav-link {
     color: #3172b9;
 }
 
-.nav-item:not(:last-child) {
-    margin-right: 50px;
+.nav-link {
+    color: #1c1c1c;
 }
 
-.header-btn {
-    margin-left:40px;
+.nav-item:not(:last-child) {
+    margin-right: 50px;
 }
 
 .btn {
@@ -116,11 +115,17 @@ img {
     cursor: pointer;
 }
 
+.header-btn {
+    margin-left:40px;
+}
+
+
+/* section hero */
+
+
 .btn.btn-big {
     padding: 20px 60px;
 }
-
-/* Hero */
 
 .section-hero {
     background: url('../img/Base.png') right center no-repeat white;
@@ -153,6 +158,14 @@ img {
     color: #787878;
 }
 
+.section-hero-action {
+    display: inline-block;
+}
+
+.btn.btn-big {
+    padding: 20px 60px;
+}
+
 .selection-hero-btn-description {
     display: flex;
     align-items: center;
@@ -167,10 +180,6 @@ img {
     text-align: center;
 }
 
-.section-hero-action {
-    display: inline-block;
-}
-
 .section-hero-ssl-icon {
     display: inline-block;
     width: 13px;
@@ -181,7 +190,9 @@ img {
     transform: translateY(-1px);
 }
 
+
 /* section what we do */
+
 
 .section-do {
     padding: 140px;
