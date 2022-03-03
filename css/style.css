@@ -230,6 +230,26 @@ img {
     border-radius: 5px;
 }
 
+.section-do-item:hover {
+    background-color: #3172b9;
+}
+
+
+
+.section-do-item:hover .section-do-icon {
+
+}
+
+.section-do-item:hover .section-do-item-decription {
+    background-color: #3172b9;
+    color: white;
+}
+
+.section-do-item:hover .section-do-item-heading{
+    background-color: #3172b9;
+    color: white;
+}
+
 .section-do-item:not(:last-child) {
     margin-right: 30px;
 }
